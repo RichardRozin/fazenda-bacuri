@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'unionagrochem';
+    src: url(../fontes/unionagrochem.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #0080003e, #0080006a,#0080006a, #006b003e);
+}
+
+main{
+    font-family: 'Inter', sans-serif;
+}
+
+.principal{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.413);
+    background-image: url(../imagens/imagem_fundo.jpeg)
+}
+
+.titulo{
+    font-family: 'unionagrochem';
+    font-size: 5em;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    color: #e1a100;
+    text-shadow: 1px 1px 1px black;
+}
+
+.galeria{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+.expandir{
+    font-size: 2em;
+    background-color: green;
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+
+.expandir:hover{
+    background-color: rgb(0, 154, 8);
+    transition: 0.15s;
+}
+
+.galeria_imagens{
+    display: none;
+}
+
+.galeria_imagens img{
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.401);
+    
+}
+
+.redes-sociais a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 1.6em;
+    margin-top: 5px;
+}
+
+.logoinsta{
+    width: 20px;
+}
+
+.redes-sociais a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.4em
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
