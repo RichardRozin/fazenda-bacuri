@@ -27,7 +27,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.413);
-    background-image: url(../imagens/imagem_fundo.jpeg)
+    background-image: url(../imagens/imagemcorreta.jpeg);
 }
 
 .titulo{
@@ -107,4 +107,16 @@ footer a{
 
 footer a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1400px){
+    .principal{
+        background-image: url(../imagens/usarfundo.jpeg);
+    }
+}
+
+@media screen and (max-width: 800px){
+    .principal{
+        background-image: url(../imagens/fundocel.jpeg);
+    }
 }
