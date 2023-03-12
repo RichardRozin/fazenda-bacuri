@@ -109,6 +109,18 @@ footer a:hover{
     text-decoration: underline;
 }
 
+a#braga{
+    display: block;
+    width: 200px;
+    color: rgb(255, 0, 187);
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+    border: 2px solid rgb(255, 0, 179);
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
 @media screen and (max-width: 1400px){
     .principal{
         background-image: url(../imagens/usarfundo.jpeg);
