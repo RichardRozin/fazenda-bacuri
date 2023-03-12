@@ -121,6 +121,12 @@ a#braga{
     margin: 10px auto;
 }
 
+a#braga:hover{
+    color: white;
+    background-color: rgb(255, 0, 200);
+    transition: 0.5s;
+}
+
 @media screen and (max-width: 1400px){
     .principal{
         background-image: url(../imagens/usarfundo.jpeg);
