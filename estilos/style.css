@@ -109,23 +109,6 @@ footer a:hover{
     text-decoration: underline;
 }
 
-a#braga{
-    display: block;
-    width: 200px;
-    color: rgb(255, 0, 187);
-    text-decoration: none;
-    font-size: 2em;
-    text-align: center;
-    border: 2px solid rgb(255, 0, 179);
-    border-radius: 10px;
-    margin: 10px auto;
-}
-
-a#braga:hover{
-    color: white;
-    background-color: rgb(255, 0, 200);
-    transition: 0.5s;
-}
 
 @media screen and (max-width: 1400px){
     .principal{
