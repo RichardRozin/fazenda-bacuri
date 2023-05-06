@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="15" filename="axion960TT_track_specular.dds"/>
+    <File fileId="16" filename="claasVehicleShader.xml"/>
+    <File fileId="24" filename="lizard_normal_back.dds"/>
+    <File fileId="22" filename="lizard_normal_front.dds"/>
+    <File fileId="26" filename="lizard_normal_front2.dds"/>
+    <File fileId="27" filename="lizard_normal_front3.dds"/>
+    <File fileId="25" filename="lizard_specular_back.dds"/>
+    <File fileId="23" filename="lizard_specular_front.dds"/>
+    <File fileId="17" filename="trackArray_AxialFlow250.dds"/>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="10" filename="$data/shared/assets/assetLibraryDecals_diffuse.png"/>
+    <File fileId="11" filename="$data/shared/assets/assetLibraryDecals_normal.png"/>
+    <File fileId="12" filename="$data/shared/assets/assetLibraryDecals_specular.png"/>
+    <File fileId="14" filename="$data/shared/default_normal.dds"/>
+    <File fileId="8" filename="$data/shared/wheels/crawlers/lizard/crawlerBelt_normal.png"/>
+    <File fileId="9" filename="$data/shared/wheels/crawlers/lizard/crawlerBelt_specular.png"/>
+    <File fileId="2" filename="$data/shared/wheels/crawlers/lizard/crawler_normal.png"/>
+    <File fileId="3" filename="$data/shared/wheels/crawlers/lizard/crawler_specular.png"/>
+    <File fileId="19" filename="$data/shared/wheels/hubs/hub004_normal.png"/>
+    <File fileId="20" filename="$data/shared/wheels/hubs/hub004_specular.png"/>
+    <File fileId="18" filename="$data/shared/wheels/rims/rim001_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="assetLibraryDecals_mat" materialId="4" customShaderId="4" customShaderVariation="colorMask">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.7519 0.344 0.0528 0"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="axion960TT_track_mat" materialId="5" diffuseColor="1 1 1 1" customShaderId="16" customShaderVariation="motionPathRubber_secondUV_colorMask">
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="15"/>
+      <Custommap name="mTrackArray" fileId="17"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="scrollPosition" value="0 0 1 0"/>
+      <CustomParameter name="lengthAndRadius" value="2 0.5 0 0"/>
+    </Material>
+    <Material name="crawler_mat" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.9157 0.9157 0.9157 0"/>
+      <CustomParameter name="colorMat1" value="0.7519 0.344 0.0528 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="crawlerBelt_mat" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="uvScroll_colorMask">
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="offsetUV" value="0 0 0 0"/>
+      <CustomParameter name="colorMat0" value="0.0278 0.0254 0.0231 5"/>
+      <CustomParameter name="colorMat1" value="0.0278 0.0254 0.0231 5"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="hub004_mat" materialId="8" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="19"/>
+      <Glossmap fileId="20"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.02 0.02 0.02 0"/>
+      <CustomParameter name="colorMat1" value="0.98 0.98 0.98 8"/>
+      <CustomParameter name="colorMat2" value="0.98 0.98 0.98 8"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="Material.001" materialId="9" diffuseColor="0.8 0.8 0.8 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="24"/>
+      <Glossmap fileId="25"/>
+      <CustomParameter name="RDT" value="1 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.45 -1.7 0.5 0.1"/>
+    </Material>
+    <Material name="Material.001" materialId="10" diffuseColor="0.8 0.8 0.8 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="22"/>
+      <Glossmap fileId="23"/>
+      <CustomParameter name="RDT" value="1 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.68 -1.7 0.5 0.1"/>
+    </Material>
+    <Material name="Material.001" materialId="11" diffuseColor="0.8 0.8 0.8 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="26"/>
+      <Glossmap fileId="23"/>
+      <CustomParameter name="RDT" value="1 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.65 -1.3 0.5 0.1"/>
+    </Material>
+    <Material name="Material.001" materialId="12" diffuseColor="0.8 0.8 0.8 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="27"/>
+      <Glossmap fileId="23"/>
+      <CustomParameter name="RDT" value="1 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.68 -1.7 0.5 0.1"/>
+    </Material>
+    <Material name="rim001_mat" materialId="13" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="RIM_colorMask">
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="18"/>
+      <CustomParameter name="RDT" value="1 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.294 0.294 0.294 0"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="widthAndDiam" value="25 37 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="AxialFlow_tires.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="01" visibility="false" nodeId="47"/>
+    <TransformGroup name="02" nodeId="48">
+      <Shape shapeId="1" name="crawlerRight" clipDistance="300" nodeId="49" materialIds="6" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="beltRight" translation="-0.0103169 0.334058 0.90554" visibility="false" clipDistance="300" nodeId="50" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="mainWheelRight" translation="0.004 0.598129 0.909654" scale="1 1.04 1.04" clipDistance="300" nodeId="51" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="4" name="screws" translation="-0.0241944 -0.00101538 6.30569e-05" clipDistance="50" nodeId="52" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="5" name="supportWheelRight1" translation="0 0.03 2" clipDistance="300" nodeId="53" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="6" name="screws" translation="-0.327915 1.80435e-05 -8.54492e-06" clipDistance="50" nodeId="54" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="7" name="supportWheelRight2" translation="0 0.014 -0.169" clipDistance="300" nodeId="55" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="8" name="screws" translation="-0.327915 8.564e-06 1.81198e-05" clipDistance="50" nodeId="56" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="9" name="supportWheelRight3" translation="0.00347427 -0.201922 1.26889" clipDistance="300" nodeId="57" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="10" name="supportWheelRight4" translation="0.00347427 -0.201922 0.900768" clipDistance="300" nodeId="58" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="11" name="supportWheelRight5" translation="0.00347427 -0.201922 0.529441" clipDistance="300" nodeId="59" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="12" name="screws" translation="0 0.36499 0.910826" clipDistance="50" nodeId="60" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="13" name="trackLeft" translation="0 -0.682 1" scale="1.25 0.865 1" clipDistance="300" nodeId="61" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="14" name="crawlerLeft" clipDistance="300" nodeId="62" materialIds="6" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="15" name="beltLeft" translation="0.010317 0.334058 0.90554" visibility="false" clipDistance="300" nodeId="63" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="16" name="mainWheelLeft" translation="-0.00409508 0.598129 0.909654" scale="1 1.04 1.04" clipDistance="300" nodeId="64" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="17" name="screws" translation="0.0859177 -0.00101543 6.30569e-05" clipDistance="50" nodeId="65" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="18" name="supportWheelLeft1" translation="0 0.03 2" clipDistance="300" nodeId="66" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="19" name="screws" translation="-0.260791 2.86865e-05 3.87192e-05" clipDistance="50" nodeId="67" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="20" name="supportWheelLeft2" translation="0 0.0141681 -0.169" clipDistance="300" nodeId="68" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="21" name="screws" translation="-0.260791 3.87192e-05 -2.89917e-05" clipDistance="50" nodeId="69" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="22" name="supportWheelLeft3" translation="-0.00347427 -0.201922 0.529441" clipDistance="300" nodeId="70" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="23" name="supportWheelLeft4" translation="-0.00347427 -0.201922 0.900768" clipDistance="300" nodeId="71" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="24" name="supportWheelLeft5" translation="-0.00347427 -0.201922 1.26889" clipDistance="300" nodeId="72" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="25" name="screws" translation="0 0.135615 0.877672" clipDistance="50" nodeId="73" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="13" name="trackLeft" translation="0 -0.682 1" scale="1.25 0.865 1" clipDistance="300" nodeId="74" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+    </TransformGroup>
+    <TransformGroup name="03" visibility="false" nodeId="75"/>
+    <TransformGroup name="800_dualsHubs" nodeId="76">
+      <Shape shapeId="26" name="singleLeft" clipDistance="800" nodeId="77" materialIds="13" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="27" name="dw_innerLeft" translation="-0.2 0 0" clipDistance="800" nodeId="78" materialIds="13" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="27" name="dw_innerLeft" translation="0.55 0 -1.09852e-07" rotation="0 180 0" scale="8 1.02 1.02" clipDistance="800" nodeId="79" materialIds="13" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="28" name="left" translation="0.55 0 0" scale="0.4 0.4 0.4" clipDistance="150" nodeId="80" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <Shape shapeId="26" name="singleRight" clipDistance="800" nodeId="81" materialIds="13" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="27" name="dw_innerLeft" translation="0.2 0 0" rotation="0 180 0" clipDistance="800" nodeId="82" materialIds="13" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="27" name="dw_innerLeft" translation="-0.55 0 -1.09852e-07" scale="8 1.02 1.02" clipDistance="800" nodeId="83" materialIds="13" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="28" name="left" translation="-0.55 0 0" rotation="0 180 0" scale="0.4 0.4 0.4" clipDistance="150" nodeId="84" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+    </TransformGroup>
+    <TransformGroup name="LSW" nodeId="85">
+      <Shape shapeId="29" name="LSW_1400/30R46" clipDistance="300" nodeId="86" materialIds="10" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="30" name="LSW_850/55R30" clipDistance="300" nodeId="87" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="31" name="LSW_1100/45R46" clipDistance="300" nodeId="88" materialIds="11" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="32" name="LSW_1250/35R46" clipDistance="300" nodeId="89" materialIds="12" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="63">
+      <Attribute name="shaderParameter" type="string" value="1.0 1.0 20.0 5.0"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>
